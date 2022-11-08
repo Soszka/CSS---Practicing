@@ -32,9 +32,10 @@ body {
 .section-title {
   font-size: 40px;
   font-family: cursive;
-  margin: 30px auto;
+  margin: 20px auto;
   text-align: center;
 }
+
 
 /* Splash */
 .splash {
@@ -119,6 +120,7 @@ body {
   position: absolute;
   text-align: center;
   margin: auto;
+  width: 10%
 }
 
 .splash li ul li {
@@ -190,15 +192,16 @@ body {
 }
 
 /* Cameras */
+
+
+
 .cameras .camera-one {
   display: flex;
-  background-color: #ecf0f1;
   padding-top: 50px;
 }
 
 .cameras .camera-two {
   display: flex;
-  background-color: #ecf0f1;
   padding-bottom: 30px;
 }
 
@@ -211,6 +214,7 @@ body {
   flex: 1;
   text-align: left;
   margin: 5px 30px;
+  padding: 20px 30px;
 }
 
 .cameras .camera-image img {
@@ -223,7 +227,7 @@ body {
 }
 
 .cameras .camera-description p {
-  padding: 40px 0 80px 0;
+  padding: 40px 0 60px 0;
 }
 
 .cameras a:hover {
@@ -241,8 +245,8 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+
 }
 
 .portfolio .portfolio-describe {
@@ -257,3 +261,229 @@ body {
 }
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxzQkFBQTtBQ0FKOztBRElBO0VBQ0EsY0FBQTtFQUNBLGdDQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxnQkFBQTtBQ0RBOztBRElBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7QUNEQTs7QURJQTtFQUNBLHFCQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxnQ0FBQTtFQUNBLGVBQUE7RUFDQSx5QkFBQTtFQUNBLG1CQUFBO0VBQ0Esa0JBQUE7QUNEQTs7QURJQTtFQUNBLGVBQUE7RUFDQSxvQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7QUNEQTs7QURLQSxXQUFBO0FBR0E7RUFDQSx3RUFBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtBQ0pBOztBRE9BO0VBQ0EscUJBQUE7QUNKQTs7QURPQTtFQUNBLGFBQUE7QUNKQTs7QURPQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EscUJBQUE7QUNKQTs7QURPQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0FDSkE7O0FET0E7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0Esc0JBQUE7RUFDQSxpQkFBQTtBQ0pBOztBRE9BO0VBQ0EsZUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtBQ0pBOztBRE9BO0VBQ0EsY0FBQTtBQ0pBOztBRE9BO0VBQ0EsYUFBQTtFQUNBLDJCQUFBO0VBQ0EsY0FBQTtBQ0pBOztBRE9BO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLFVBQUE7RUFDQSxXQUFBO0VBQ0EsMEJBQUE7RUFDQSxXQUFBO0FDSkE7O0FET0E7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7QUNKQTs7QURPQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtBQ0pBOztBRE9BO0VBQ0EsZ0JBQUE7RUFDQSx1QkFBQTtFQUNBLGdCQUFBO0FDSkE7O0FET0E7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLFlBQUE7QUNKQTs7QURPQTtFQUNBLGNBQUE7RUFDQSx5QkFBQTtFQUNBLHVCQUFBO0VBQ0EsaUJBQUE7QUNKQTs7QURPQTtFQUNBLHlCQUFBO0VBQ0EsWUFBQTtBQ0pBOztBRE9BO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0FDSkE7O0FEUUEsV0FBQTtBQUdBO0VBQ0Esa0JBQUE7QUNQQTs7QURVQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtBQ1BBOztBRFVBO0VBQ0EsT0FBQTtFQUNBLGlCQUFBO0VBQ0EsYUFBQTtBQ1BBOztBRFVBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7QUNQQTs7QURVQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtFQUNBLGtCQUFBO0FDUEE7O0FEVUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7QUNQQTs7QURVQTtFQUNBLGlCQUFBO0FDUEE7O0FEVUE7RUFDQSxjQUFBO0VBQ0EsdUJBQUE7QUNQQTs7QURXQSxZQUFBO0FBS0E7RUFDQSxhQUFBO0VBQ0EseUJBQUE7RUFDQSxpQkFBQTtBQ1pBOztBRGVBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0VBQ0Esb0JBQUE7QUNaQTs7QURlQTtFQUNBLE9BQUE7RUFDQSxhQUFBO0FDWkE7O0FEZUE7RUFDQSxPQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtBQ1pBOztBRGVBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUNaQTs7QURlQTtFQUNBLGdCQUFBO0FDWkE7O0FEZUE7RUFDQSxzQkFBQTtBQ1pBOztBRGVBO0VBQ0EsV0FBQTtFQUNBLHlCQUFBO0FDWkE7O0FEZUEsY0FBQTtBQUdBO0VBQ0ksaUZBQUE7RUFDQSxZQUFBO0FDZEo7O0FEaUJBO0VBQ0ksWUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNkSjs7QURpQkE7RUFDSSxhQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUNkSjs7QURpQkE7RUFDSSxjQUFBO0FDZEoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+
+/* Our Services */
+
+
+.our-services .container > p {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 0;
+}
+
+.our-services .services {
+  display: flex;
+  background: #f5f6fa;
+  padding-left: 50px;
+}
+
+.our-services .one-service {
+  flex: 50%;
+  text-align: left;
+  padding: 20px 30px;
+}
+
+.our-services .service-row {
+  display: flex;
+}
+
+.our-services .service-icon {
+  flex: 25%;
+  font-size: 30px;
+  margin-top: 37px;
+  color: #05c46b;
+}
+
+.our-services .service-description {
+  flex: 75%
+}
+
+.our-services .service-describe .section-title {
+  text-align: left;
+}
+
+
+/* Team gallery */
+
+
+.team-gallery > p {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.team-gallery img {
+  width: 19%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.team-gallery .special-image {
+  display: inline;
+  position: relative;
+}
+
+.team-gallery .special-image p {
+  position: absolute;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  left: 35px;
+  top: -140px;
+}
+
+.team-gallery .card {
+  width: 97%;
+  height: 300px;
+  background-color: #05c46b;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: -284px;
+}
+
+/* Prices */
+
+
+.prices {
+  background: #f5f6fa;
+}
+
+.prices > p {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.prices .container {
+  display : flex;
+  width: 1100px;
+}
+
+.prices .ofert {
+  flex: 1;
+  display: block;
+  margin: 2px 10px;
+  background-color: white;
+}
+
+.prices .ofert-price h3 {
+  font-size: 45px;
+  color: #05c46b;
+  margin: 0
+}
+  
+.prices .ofert-price p {
+  font-size: 15px;
+  color: grey;
+  padding-bottom: 40px;
+}
+
+.prices .ofert-purchase {
+  background-color: #05c46b;
+  padding: 10px;
+  width: 100%
+}
+
+.prices .ofert-purchase:hover {
+  background-color: #fed330;
+  color: #05c46b;
+}
+
+.prices .ofert-purchase a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.prices i {
+  color: white;
+  display: inline;
+  font-size: 17px;
+  padding-left: 100px;
+}
+
+.prices .cost {
+  position: absolute;
+  bottom: 90px;
+}
+
+.prices .ofert-price {
+  padding: 1px 20px;
+  position: relative;
+}
+
+.prices .ofert-describe {
+  padding: 1px 20px;
+}
+
+
+/* Europe */  
+
+
+.world {
+  display: flex;
+  margin: 0 auto 60px;
+  width: 1100px;
+}
+
+.world .world-description {
+  flex: 1;
+  padding: 40px 20px 10px 40px;
+
+}
+
+.world .world-map{
+  flex: 1;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.world .section-title {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.world .world-description p {
+  padding-bottom: 40px;
+}
+
+.world .world-description a:hover {
+  background: yellow;
+  color:#05c46b
+}
+
+
+/* Mountains */
+
+
+.mountains {
+  background: url(https://i.postimg.cc/TYzqP8s6/lake-district-g795512dc9-1280.jpg);
+  width: 100vw;
+  height: 500px;
+  background-size: 100%;
+}
+
+.mountains .mountains-describe {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+
+.mountains span {
+  color: #05c46b;
+}
+
+.mountains h1 {
+  padding-bottom: 70px;
+}
+
+.mountains a:hover {
+  background: yellow;
+  color: #05c46b;
+}
